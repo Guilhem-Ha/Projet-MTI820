@@ -22,3 +22,11 @@ projet-mti820/
 pip install pandas numpy scikit-learn spacy matplotlib seaborn wordcloud jupyter
 python -m spacy download en_core_web_sm
 ```
+
+## Données
+
+Dataset : [Drug Review Dataset (Drugs.com)](https://archive.ics.uci.edu/dataset/461/drug+review+dataset+drugs+com)
+
+Les fichiers `drugsComTrain_raw.csv` et `drugsComTest_raw.csv` (~107 Mo) ne sont pas versionnés dans le dépôt
+(trop volumineux pour git). Télécharger le dataset depuis le lien ci-dessus et placer les deux fichiers CSV
+dans `data/` avant d'exécuter les notebooks.
