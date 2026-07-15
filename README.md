@@ -19,7 +19,7 @@ projet-mti820/
 ## Installation
 
 ```bash
-pip install pandas numpy scikit-learn spacy matplotlib seaborn wordcloud jupyter
+pip install pandas numpy scikit-learn spacy spacy-lookups-data matplotlib seaborn wordcloud jupyter
 python -m spacy download en_core_web_sm
 ```
 
